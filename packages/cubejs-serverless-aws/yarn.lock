@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@cubejs-backend/api-gateway@^0.10.21":
-  version "0.10.21"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.10.21.tgz#0e1c1eb4ee57e86e839d53bef78b423976e72cdf"
-  integrity sha512-AMQdA9FgeZBB5/xqvYmmHSAz4K8Xd2IoZqdtQgaFquDQSU5gWm2D6x9Crw39XK6uhqrAXaIeSl1HZFp1JDtLxw==
+"@cubejs-backend/api-gateway@^0.10.62":
+  version "0.10.62"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.10.62.tgz#83ad2894f7442e85d4fb00ee173070e53ff60a86"
+  integrity sha512-825CLVww9aOajKAwAE0S8vg4YWykMNZktA/pb9lASLNMmykm7om+gnVcphyIPc2c5W5iADbnH+X1uoqYKhkOQg==
   dependencies:
     "@hapi/joi" "^14.0.6"
     chrono-node "^1.3.11"
@@ -13,18 +13,18 @@
     moment "^2.24.0"
     ramda "^0.25.0"
 
-"@cubejs-backend/query-orchestrator@^0.10.16":
-  version "0.10.16"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.10.16.tgz#207e1bc69f8f7e3aed3db970fd450528f08e079b"
-  integrity sha512-g+SWhZVQF4ux/HJeRZQ0+lRm8+Iy0Ink19oFqDiLrv1AhDAZ66VpAUM/NXMb5AbRdHH76yB2rvb2ZdT7PfOtIg==
+"@cubejs-backend/query-orchestrator@^0.10.58":
+  version "0.10.58"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.10.58.tgz#868a8beb933d3a1ade4d63cc0093c104610756a5"
+  integrity sha512-ePcXWinoCB23/MnlVBEMNB0rdJ1yFvGOwIHo0ruHtX07c5sMYrrEecL97Vz3vdoFd125eE8/CsppnecVAKdPKw==
   dependencies:
     ramda "^0.24.1"
     redis "^2.8.0"
 
-"@cubejs-backend/schema-compiler@^0.10.23":
-  version "0.10.23"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.10.23.tgz#55c1558c8442c163b35e1e8839baf67662a4f457"
-  integrity sha512-MowbtC9W24kAmfIRMYIEeREkPmN0vckWtRIzsrfO5bxLnCCM/RI3QlwDH9pLWJYt5rvTNCj85q1mlB1tQxrD2Q==
+"@cubejs-backend/schema-compiler@^0.10.62":
+  version "0.10.62"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.10.62.tgz#942beb89a02c7a22bc85de50d8916928193870d5"
+  integrity sha512-f/2rR6ZEs0y0DrprFcSAzb58bFk69o0QlRnGS9WWFtsmQ3NuboGx4IW9SRTSdba2RPijiOVXfnmduBIDqw8e0w==
   dependencies:
     "@hapi/joi" "^14.3.1"
     babel-generator "^6.25.0"
@@ -39,14 +39,14 @@
     ramda "^0.24.1"
     syntax-error "^1.3.0"
 
-"@cubejs-backend/server-core@^0.10.23":
-  version "0.10.23"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/server-core/-/server-core-0.10.23.tgz#30b366877253088a47f6971ed86c479fee8505cb"
-  integrity sha512-f9tMuEnCsGEsf+OS+Mi35RlCq1HgZ3MQQddYXmLVjsSID5nTnWQQdVEthkSPKKOCr6B2giS5EX7zoPX84AEe9w==
+"@cubejs-backend/server-core@^0.10.62":
+  version "0.10.62"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/server-core/-/server-core-0.10.62.tgz#a892dc64405e0fb0c168c9d0f86ce2dc72161046"
+  integrity sha512-v07eDsRd1lwQo/Fp/x2DqvnDlhpRpzM6yJRgWsiwUomUW8wuCbbNRENk1olxT1na7G4PwR+TcjO/c5K0/OXtUA==
   dependencies:
-    "@cubejs-backend/api-gateway" "^0.10.21"
-    "@cubejs-backend/query-orchestrator" "^0.10.16"
-    "@cubejs-backend/schema-compiler" "^0.10.23"
+    "@cubejs-backend/api-gateway" "^0.10.62"
+    "@cubejs-backend/query-orchestrator" "^0.10.58"
+    "@cubejs-backend/schema-compiler" "^0.10.62"
     analytics-node "^3.4.0-beta.1"
     codesandbox-import-utils "^1.3.8"
     cross-spawn "^6.0.5"
@@ -57,12 +57,12 @@
     ramda "^0.25.0"
     serve-static "^1.13.2"
 
-"@cubejs-backend/serverless@^0.10.23":
-  version "0.10.23"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/serverless/-/serverless-0.10.23.tgz#618bccd94e2243bf96387b1fbba412208a76bc48"
-  integrity sha512-MQLG2hdzsem0nsOnp3BfjysbtwjdGFVEyrIBqrB5v3lJ+PJy4Qec+VxedJ1/A4fcEftGgKgpu8vvczS8Tv1QeA==
+"@cubejs-backend/serverless@^0.10.41":
+  version "0.10.62"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/serverless/-/serverless-0.10.62.tgz#b02cf8440c16495db20b927b981b4fd8fe92cebf"
+  integrity sha512-4MEhF/edNzgOgU1CG3/FemS9KVHycGVHSJWvrcNBCfVL4eKSQZcJLBO/trNifqQiAMmoC3k33UoCDcqUWCcNnw==
   dependencies:
-    "@cubejs-backend/server-core" "^0.10.23"
+    "@cubejs-backend/server-core" "^0.10.62"
     cors "^2.8.5"
     serverless-express "^2.0.11"
 
@@ -368,9 +368,9 @@ body-parser@1.19.0:
     type-is "~1.6.17"
 
 brace-expansion@^1.1.7:
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
-  integrity sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==
+  version "1.1.22"
+  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.22.tgz#82f87655acd0bae5c8a717bb0a81573e43ab42c0"
+  integrity sha512-CKLDTuSsN0+r1ThM0WkzzBI7dnPI6xEGfa/JnVYIK9JNBA1N1NyPwXVHor//NKD/y3sDxp764sZdLhFK7pH8XQ==
   dependencies:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
