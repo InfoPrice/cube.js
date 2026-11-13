@@ -25,10 +25,10 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@cubejs-backend/query-orchestrator@^0.10.16":
-  version "0.10.16"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.10.16.tgz#207e1bc69f8f7e3aed3db970fd450528f08e079b"
-  integrity sha512-g+SWhZVQF4ux/HJeRZQ0+lRm8+Iy0Ink19oFqDiLrv1AhDAZ66VpAUM/NXMb5AbRdHH76yB2rvb2ZdT7PfOtIg==
+"@cubejs-backend/query-orchestrator@^0.10.35":
+  version "0.10.58"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.10.58.tgz#868a8beb933d3a1ade4d63cc0093c104610756a5"
+  integrity sha512-ePcXWinoCB23/MnlVBEMNB0rdJ1yFvGOwIHo0ruHtX07c5sMYrrEecL97Vz3vdoFd125eE8/CsppnecVAKdPKw==
   dependencies:
     ramda "^0.24.1"
     redis "^2.8.0"
@@ -776,9 +776,9 @@ js-tokens@^4.0.0:
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
 js-yaml@^3.13.0:
-  version "3.13.1"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
-  integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
+  version "3.15.2"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.15.2.tgz#3f83823ac6be17f570f23b2ecdef3777ff5ea364"
+  integrity sha512-6EuL879VkRA+1Cz578mKMiKvjPNEuk6+r1JaFzoSWejZmtf7xWbIyw1e3KkxlkzTIt9Taw6JBhEppG7utc1P+w==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
